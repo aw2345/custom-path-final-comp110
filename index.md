@@ -5,6 +5,7 @@ layout: default
  
 ## Diving into the Data: Our Analysis
 
+Gabriella Kirby, Andrea Wang, Spring 2026
 
 In this analysis, we explored the relationship between students' prior programming experience and their perceived difficulty in COMP 110. Our idea was that students with little to no prior experience find the course more difficult, and that adding beginner-friendly resources to the course site would benefit a large portion of the student population.
 We first imported two survey datasets using the read_csv_rows function and combined them into one usable table using the function concat. We then used the columnar and select functions to convert the data into a column-oriented format and isolate the columns relevant to our analysis: prior_exp, difficulty, and oh_visits.
